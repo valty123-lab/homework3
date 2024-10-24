@@ -13,15 +13,14 @@ public class Main {
         }
 
         //Задание 2.
-        int temperature = 4;
-        if (temperature < 5) {
+        int temperature = 5;
+        if (temperature <= 5) {
             System.out.println("На улице " + temperature + " нужно надеть шапку");
         }
-        int temperature1 = 10;
-        if (temperature1 > 5) {
-            System.out.println("На улице " + temperature1 + " можно идти без шапки");
+        else if(temperature>5) {System.out.println("На улице " + temperature + " можно идти без шапки");
+
         }
-        ;
+
 
         //Задание 3.
 
@@ -29,9 +28,9 @@ public class Main {
         if (speed > 60) {
             System.out.println("Если скорость" + speed + " то придется заплатить штраф");
         }
-        int speed2 = 50;
-        if (speed2 < 60) {
-            System.out.println("Если скорость" + speed2 + "можно ездить спокойно");
+
+        else if (speed < 60) {
+            System.out.println("Если скорость" + speed + "можно ездить спокойно");
         }
         //Задача 4.
         int ageChildUnderToSchool = 3;
