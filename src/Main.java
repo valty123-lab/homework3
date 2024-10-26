@@ -27,7 +27,7 @@ public class Main {
         if (speed > 60) {
             System.out.println("Если скорость" + speed + " то придется заплатить штраф");
         }
-        if (speed < 60) {
+        else   {
             System.out.println("Если скорость" + speed + "можно ездить спокойно");
         }
         //Задача 4.
